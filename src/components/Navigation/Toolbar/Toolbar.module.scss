@@ -1,4 +1,5 @@
 .Toolbar {
+  position: relative;
   background-color: #f3f3f3;
   height: 100%;
   display: flex;
@@ -10,5 +11,11 @@
     height: 70%;
     display: inherit;
     align-items: center;
+  }
+
+  .UserInfo {
+    position: absolute;
+    right: 20px;
+    top: 52px;
   }
 }
